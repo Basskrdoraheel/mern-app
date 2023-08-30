@@ -13,6 +13,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use("/api/goals",require("./routes/goalRoutes"))
+app.use("/api/user",require("./routes/userRoutes"))
 app.use(errorHandler)
 
 app.listen(port,()=>{
