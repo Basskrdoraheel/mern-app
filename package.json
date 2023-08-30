@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
+
   },
   "author": "Raheel Mughal",
   "license": "ISC",
